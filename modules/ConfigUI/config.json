@@ -1,0 +1,31 @@
+
+{
+  "name": "BIT // Point",
+  "version": 1,
+  "controls": [
+    {
+      "id": "server_status",
+      "type": "status",
+      "label": "BIT Server",
+      "source": "/api/status"
+    },
+    {
+      "id": "counter",
+      "type": "button",
+      "label": "Zähler erhöhen",
+      "action": "add"
+    },
+    {
+      "id": "counter_value",
+      "type": "text",
+      "label": "Aktueller Zähler",
+      "action": "getx"
+    },
+    {
+      "id": "stopwatch",
+      "type": "button",
+      "label": "Stoppuhr",
+      "action": "TrigStop"
+    }
+  ]
+}

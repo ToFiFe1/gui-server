@@ -1,0 +1,18 @@
+Mann soo in 5 seklundentakt ein harthbbeat haben der nach im localhost ach ports mit eijnem spezial header hat mit dem key
+
+dh. niemand kann eine sache einschleusen die den header hat
+
+
+def scan(std::string localhost) {
+
+    asio:any() beislie soll nach ports cheken 
+
+    port kopieren
+
+    port vanfrage mit header mit dem key 
+
+    gegenseite mach ähnlich und sendet das 
+
+    und die /config/api.list NICHT übertragen werden sondern nur die dateien so
+
+}

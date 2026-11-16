@@ -1,0 +1,3 @@
+C:/Users/scher/OneDrive/Desktop/c++/gui server/build/CMakeFiles/bit.dir
+C:/Users/scher/OneDrive/Desktop/c++/gui server/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/scher/OneDrive/Desktop/c++/gui server/build/CMakeFiles/ZERO_CHECK.dir

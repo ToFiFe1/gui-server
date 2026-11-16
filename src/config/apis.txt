@@ -1,0 +1,35 @@
+# API Routes
+
+/redirect=redirect.html
+/api=api.html
+/test=test.html
+
+# Static files
+
+/style.css=style.css
+/script.js=script.js
+/favicon.ico=favicon.ico
+
+# API functions
+
+/api/time=getTime
+/api/trigStop=TrigStop
+/api/status=getStatus
+/api/test=testApi
+
+/api/add=add
+/api/sub=sub
+/api/getx=getx
+/api/vulkan=vulkan
+
+
+/api/status=getStatus
+/api/ui-config=getUIConfig
+/api/add=add
+/api/sub=sub
+/api/getx=getx
+/api/trigStop=TrigStop
+
+/search?=x = seach_input
+
+/home=n8n_1

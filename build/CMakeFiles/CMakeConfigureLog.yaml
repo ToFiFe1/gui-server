@@ -1,0 +1,1723 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineSystem.cmake:218 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "%SystemRoot%\\system32"
+        - "%SystemRoot%"
+        - "%SystemRoot%\\System32\\Wbem"
+        - "%SYSTEMROOT%\\System32\\WindowsPowerShell\\v1.0\\"
+        - "%SYSTEMROOT%\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Tailscale\\"
+        - "C:\\Program Files (x86)\\cloudflared\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\scher\\OneDrive\\Desktop\\mingw64\\bin\\g++.exe"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\Seelen\\Seelen UI"
+        - "C:\\Users\\scher\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\scher\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\scher\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\scher\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\scher\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\scher\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\scher\\AppData\\Roaming\\npm"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild-Version 18.9.1+a81b43525 f├╝r .NET Framework
+      Der Buildvorgang wurde am 06.10.2026 20:47:30 gestartet.
+      
+      Projekt "C:\\Users\\scher\\OneDrive\\Desktop\\c++\\gui server\\build\\CMakeFiles\\4.4.0-rc3\\CompilerIdC\\CompilerIdC.vcxproj" auf Knoten "1" (Standardziele).
+      PrepareForBuild:
+        Das Verzeichnis "Debug\\" wird erstellt.
+        Die strukturierte Ausgabe ist aktiviert. Die Formatierung der Compilerdiagnose spiegelt die Fehlerhierarchie wider. Weitere Informationen finden Sie unter https://aka.ms/cpp/structured-output.
+        Das Verzeichnis "Debug\\CompilerIdC.tlog\\" wird erstellt.
+      InitializeBuildStatus:
+        "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+        Aktualisieren des Timestamps von "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\scher\\OneDrive\\Desktop\\c++\\gui server\\build\\CMakeFiles\\4.4.0-rc3\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Die Datei "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" wird gel├Âscht.
+        Aktualisieren des Timestamps von "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Die Erstellung von Projekt "C:\\Users\\scher\\OneDrive\\Desktop\\c++\\gui server\\build\\CMakeFiles\\4.4.0-rc3\\CompilerIdC\\CompilerIdC.vcxproj" ist abgeschlossen (Standardziele).
+      
+      Der Buildvorgang wurde erfolgreich ausgef├╝hrt.
+          0 Warnung(en)
+          0 Fehler
+      
+      Verstrichene Zeit 00:00:00.84
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/scher/OneDrive/Desktop/c++/gui server/build/CMakeFiles/4.4.0-rc3/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:64 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:102 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/system32/"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/System32/Wbem/"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SYSTEMROOT%/System32/WindowsPowerShell/v1.0/"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SYSTEMROOT%/System32/OpenSSH/"
+      - "C:/Program Files/Tailscale/"
+      - "C:/Program Files (x86)/cloudflared/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Users/scher/OneDrive/Desktop/mingw64/bin/g++.exe/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/Seelen/Seelen UI/"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/scher/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/scher/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/scher/AppData/Local/Programs/Ollama/"
+      - "C:/Users/scher/AppData/Roaming/npm/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "%SystemRoot%\\system32"
+        - "%SystemRoot%"
+        - "%SystemRoot%\\System32\\Wbem"
+        - "%SYSTEMROOT%\\System32\\WindowsPowerShell\\v1.0\\"
+        - "%SYSTEMROOT%\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Tailscale\\"
+        - "C:\\Program Files (x86)\\cloudflared\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\scher\\OneDrive\\Desktop\\mingw64\\bin\\g++.exe"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\Seelen\\Seelen UI"
+        - "C:\\Users\\scher\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\scher\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\scher\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\scher\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\scher\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\scher\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\scher\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:64 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/system32/"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/System32/Wbem/"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SYSTEMROOT%/System32/WindowsPowerShell/v1.0/"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SYSTEMROOT%/System32/OpenSSH/"
+      - "C:/Program Files/Tailscale/"
+      - "C:/Program Files (x86)/cloudflared/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Users/scher/OneDrive/Desktop/mingw64/bin/g++.exe/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/Seelen/Seelen UI/"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/scher/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/scher/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/scher/AppData/Local/Programs/Ollama/"
+      - "C:/Users/scher/AppData/Roaming/npm/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/system32/lld-link.com"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/system32/lld-link.exe"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/system32/lld-link"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/lld-link.com"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/lld-link.exe"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/lld-link"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/System32/Wbem/lld-link.com"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/System32/Wbem/lld-link.exe"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/System32/Wbem/lld-link"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SYSTEMROOT%/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SYSTEMROOT%/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SYSTEMROOT%/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SYSTEMROOT%/System32/OpenSSH/lld-link.com"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SYSTEMROOT%/System32/OpenSSH/lld-link.exe"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SYSTEMROOT%/System32/OpenSSH/lld-link"
+      - "C:/Program Files/Tailscale/lld-link.com"
+      - "C:/Program Files/Tailscale/lld-link.exe"
+      - "C:/Program Files/Tailscale/lld-link"
+      - "C:/Program Files (x86)/cloudflared/lld-link.com"
+      - "C:/Program Files (x86)/cloudflared/lld-link.exe"
+      - "C:/Program Files (x86)/cloudflared/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "C:/Users/scher/OneDrive/Desktop/mingw64/bin/g++.exe/lld-link.com"
+      - "C:/Users/scher/OneDrive/Desktop/mingw64/bin/g++.exe/lld-link.exe"
+      - "C:/Users/scher/OneDrive/Desktop/mingw64/bin/g++.exe/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link"
+      - "C:/Program Files/GitHub CLI/lld-link.com"
+      - "C:/Program Files/GitHub CLI/lld-link.exe"
+      - "C:/Program Files/GitHub CLI/lld-link"
+      - "C:/Program Files/Seelen/Seelen UI/lld-link.com"
+      - "C:/Program Files/Seelen/Seelen UI/lld-link.exe"
+      - "C:/Program Files/Seelen/Seelen UI/lld-link"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Python313/Scripts/lld-link.com"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Python313/Scripts/lld-link.exe"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Python313/Scripts/lld-link"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Python313/lld-link.com"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Python313/lld-link.exe"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Python313/lld-link"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Launcher/lld-link.com"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Launcher/lld-link.exe"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Launcher/lld-link"
+      - "C:/Users/scher/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/scher/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/scher/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/scher/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/scher/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/scher/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/scher/AppData/Local/Programs/Ollama/lld-link.com"
+      - "C:/Users/scher/AppData/Local/Programs/Ollama/lld-link.exe"
+      - "C:/Users/scher/AppData/Local/Programs/Ollama/lld-link"
+      - "C:/Users/scher/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/scher/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/scher/AppData/Roaming/npm/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "%SystemRoot%\\system32"
+        - "%SystemRoot%"
+        - "%SystemRoot%\\System32\\Wbem"
+        - "%SYSTEMROOT%\\System32\\WindowsPowerShell\\v1.0\\"
+        - "%SYSTEMROOT%\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Tailscale\\"
+        - "C:\\Program Files (x86)\\cloudflared\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\scher\\OneDrive\\Desktop\\mingw64\\bin\\g++.exe"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\Seelen\\Seelen UI"
+        - "C:\\Users\\scher\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\scher\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\scher\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\scher\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\scher\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\scher\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\scher\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/system32/"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/System32/Wbem/"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SYSTEMROOT%/System32/WindowsPowerShell/v1.0/"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SYSTEMROOT%/System32/OpenSSH/"
+      - "C:/Program Files/Tailscale/"
+      - "C:/Program Files (x86)/cloudflared/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Users/scher/OneDrive/Desktop/mingw64/bin/g++.exe/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/Seelen/Seelen UI/"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/scher/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/scher/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/scher/AppData/Local/Programs/Ollama/"
+      - "C:/Users/scher/AppData/Roaming/npm/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "%SystemRoot%\\system32"
+        - "%SystemRoot%"
+        - "%SystemRoot%\\System32\\Wbem"
+        - "%SYSTEMROOT%\\System32\\WindowsPowerShell\\v1.0\\"
+        - "%SYSTEMROOT%\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Tailscale\\"
+        - "C:\\Program Files (x86)\\cloudflared\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\scher\\OneDrive\\Desktop\\mingw64\\bin\\g++.exe"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\Seelen\\Seelen UI"
+        - "C:\\Users\\scher\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\scher\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\scher\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\scher\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\scher\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\scher\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\scher\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/system32/"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/System32/Wbem/"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SYSTEMROOT%/System32/WindowsPowerShell/v1.0/"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SYSTEMROOT%/System32/OpenSSH/"
+      - "C:/Program Files/Tailscale/"
+      - "C:/Program Files (x86)/cloudflared/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Users/scher/OneDrive/Desktop/mingw64/bin/g++.exe/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/Seelen/Seelen UI/"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/scher/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/scher/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/scher/AppData/Local/Programs/Ollama/"
+      - "C:/Users/scher/AppData/Roaming/npm/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/mt"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/system32/mt.com"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/system32/mt.exe"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/system32/mt"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/mt.com"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/mt.exe"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/mt"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/System32/Wbem/mt.com"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/System32/Wbem/mt.exe"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/System32/Wbem/mt"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SYSTEMROOT%/System32/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SYSTEMROOT%/System32/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SYSTEMROOT%/System32/WindowsPowerShell/v1.0/mt"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SYSTEMROOT%/System32/OpenSSH/mt.com"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SYSTEMROOT%/System32/OpenSSH/mt.exe"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SYSTEMROOT%/System32/OpenSSH/mt"
+      - "C:/Program Files/Tailscale/mt.com"
+      - "C:/Program Files/Tailscale/mt.exe"
+      - "C:/Program Files/Tailscale/mt"
+      - "C:/Program Files (x86)/cloudflared/mt.com"
+      - "C:/Program Files (x86)/cloudflared/mt.exe"
+      - "C:/Program Files (x86)/cloudflared/mt"
+      - "C:/Program Files/nodejs/mt.com"
+      - "C:/Program Files/nodejs/mt.exe"
+      - "C:/Program Files/nodejs/mt"
+      - "C:/Users/scher/OneDrive/Desktop/mingw64/bin/g++.exe/mt.com"
+      - "C:/Users/scher/OneDrive/Desktop/mingw64/bin/g++.exe/mt.exe"
+      - "C:/Users/scher/OneDrive/Desktop/mingw64/bin/g++.exe/mt"
+      - "C:/Program Files/CMake/bin/mt.com"
+      - "C:/Program Files/CMake/bin/mt.exe"
+      - "C:/Program Files/CMake/bin/mt"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt"
+      - "C:/Program Files/Docker/Docker/resources/bin/mt.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/mt.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/mt"
+      - "C:/Program Files/GitHub CLI/mt.com"
+      - "C:/Program Files/GitHub CLI/mt.exe"
+      - "C:/Program Files/GitHub CLI/mt"
+      - "C:/Program Files/Seelen/Seelen UI/mt.com"
+      - "C:/Program Files/Seelen/Seelen UI/mt.exe"
+      - "C:/Program Files/Seelen/Seelen UI/mt"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Python313/Scripts/mt.com"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Python313/Scripts/mt.exe"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Python313/Scripts/mt"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Python313/mt.com"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Python313/mt.exe"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Python313/mt"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Launcher/mt.com"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Launcher/mt.exe"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Launcher/mt"
+      - "C:/Users/scher/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/scher/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/scher/AppData/Local/Microsoft/WindowsApps/mt"
+      - "C:/Users/scher/AppData/Local/Programs/Microsoft VS Code/bin/mt.com"
+      - "C:/Users/scher/AppData/Local/Programs/Microsoft VS Code/bin/mt.exe"
+      - "C:/Users/scher/AppData/Local/Programs/Microsoft VS Code/bin/mt"
+      - "C:/Users/scher/AppData/Local/Programs/Ollama/mt.com"
+      - "C:/Users/scher/AppData/Local/Programs/Ollama/mt.exe"
+      - "C:/Users/scher/AppData/Local/Programs/Ollama/mt"
+      - "C:/Users/scher/AppData/Roaming/npm/mt.com"
+      - "C:/Users/scher/AppData/Roaming/npm/mt.exe"
+      - "C:/Users/scher/AppData/Roaming/npm/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "%SystemRoot%\\system32"
+        - "%SystemRoot%"
+        - "%SystemRoot%\\System32\\Wbem"
+        - "%SYSTEMROOT%\\System32\\WindowsPowerShell\\v1.0\\"
+        - "%SYSTEMROOT%\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Tailscale\\"
+        - "C:\\Program Files (x86)\\cloudflared\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\scher\\OneDrive\\Desktop\\mingw64\\bin\\g++.exe"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\Seelen\\Seelen UI"
+        - "C:\\Users\\scher\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\scher\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\scher\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\scher\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\scher\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\scher\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\scher\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/system32/"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/System32/Wbem/"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SYSTEMROOT%/System32/WindowsPowerShell/v1.0/"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SYSTEMROOT%/System32/OpenSSH/"
+      - "C:/Program Files/Tailscale/"
+      - "C:/Program Files (x86)/cloudflared/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Users/scher/OneDrive/Desktop/mingw64/bin/g++.exe/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/Seelen/Seelen UI/"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/scher/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/scher/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/scher/AppData/Local/Programs/Ollama/"
+      - "C:/Users/scher/AppData/Roaming/npm/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lib.com"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "%SystemRoot%\\system32"
+        - "%SystemRoot%"
+        - "%SystemRoot%\\System32\\Wbem"
+        - "%SYSTEMROOT%\\System32\\WindowsPowerShell\\v1.0\\"
+        - "%SYSTEMROOT%\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Tailscale\\"
+        - "C:\\Program Files (x86)\\cloudflared\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\scher\\OneDrive\\Desktop\\mingw64\\bin\\g++.exe"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\Seelen\\Seelen UI"
+        - "C:\\Users\\scher\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\scher\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\scher\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\scher\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\scher\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\scher\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\scher\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "%SystemRoot%\\system32"
+        - "%SystemRoot%"
+        - "%SystemRoot%\\System32\\Wbem"
+        - "%SYSTEMROOT%\\System32\\WindowsPowerShell\\v1.0\\"
+        - "%SYSTEMROOT%\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Tailscale\\"
+        - "C:\\Program Files (x86)\\cloudflared\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\scher\\OneDrive\\Desktop\\mingw64\\bin\\g++.exe"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\Seelen\\Seelen UI"
+        - "C:\\Users\\scher\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\scher\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\scher\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\scher\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\scher\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\scher\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\scher\\AppData\\Roaming\\npm"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild-Version 18.9.1+a81b43525 f├╝r .NET Framework
+      Der Buildvorgang wurde am 06.10.2026 20:47:31 gestartet.
+      
+      Projekt "C:\\Users\\scher\\OneDrive\\Desktop\\c++\\gui server\\build\\CMakeFiles\\4.4.0-rc3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" auf Knoten "1" (Standardziele).
+      PrepareForBuild:
+        Das Verzeichnis "Debug\\" wird erstellt.
+        Die strukturierte Ausgabe ist aktiviert. Die Formatierung der Compilerdiagnose spiegelt die Fehlerhierarchie wider. Weitere Informationen finden Sie unter https://aka.ms/cpp/structured-output.
+        Das Verzeichnis "Debug\\CompilerIdCXX.tlog\\" wird erstellt.
+      InitializeBuildStatus:
+        "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+        Aktualisieren des Timestamps von "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\scher\\OneDrive\\Desktop\\c++\\gui server\\build\\CMakeFiles\\4.4.0-rc3\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Die Datei "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" wird gel├Âscht.
+        Aktualisieren des Timestamps von "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Die Erstellung von Projekt "C:\\Users\\scher\\OneDrive\\Desktop\\c++\\gui server\\build\\CMakeFiles\\4.4.0-rc3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" ist abgeschlossen (Standardziele).
+      
+      Der Buildvorgang wurde erfolgreich ausgef├╝hrt.
+          0 Warnung(en)
+          0 Fehler
+      
+      Verstrichene Zeit 00:00:00.61
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/scher/OneDrive/Desktop/c++/gui server/build/CMakeFiles/4.4.0-rc3/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:64 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/system32/"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/System32/Wbem/"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SYSTEMROOT%/System32/WindowsPowerShell/v1.0/"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SYSTEMROOT%/System32/OpenSSH/"
+      - "C:/Program Files/Tailscale/"
+      - "C:/Program Files (x86)/cloudflared/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Users/scher/OneDrive/Desktop/mingw64/bin/g++.exe/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/Seelen/Seelen UI/"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/scher/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/scher/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/scher/AppData/Local/Programs/Ollama/"
+      - "C:/Users/scher/AppData/Roaming/npm/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/system32/lld-link.com"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/system32/lld-link.exe"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/system32/lld-link"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/lld-link.com"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/lld-link.exe"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/lld-link"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/System32/Wbem/lld-link.com"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/System32/Wbem/lld-link.exe"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/System32/Wbem/lld-link"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SYSTEMROOT%/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SYSTEMROOT%/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SYSTEMROOT%/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SYSTEMROOT%/System32/OpenSSH/lld-link.com"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SYSTEMROOT%/System32/OpenSSH/lld-link.exe"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SYSTEMROOT%/System32/OpenSSH/lld-link"
+      - "C:/Program Files/Tailscale/lld-link.com"
+      - "C:/Program Files/Tailscale/lld-link.exe"
+      - "C:/Program Files/Tailscale/lld-link"
+      - "C:/Program Files (x86)/cloudflared/lld-link.com"
+      - "C:/Program Files (x86)/cloudflared/lld-link.exe"
+      - "C:/Program Files (x86)/cloudflared/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "C:/Users/scher/OneDrive/Desktop/mingw64/bin/g++.exe/lld-link.com"
+      - "C:/Users/scher/OneDrive/Desktop/mingw64/bin/g++.exe/lld-link.exe"
+      - "C:/Users/scher/OneDrive/Desktop/mingw64/bin/g++.exe/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link"
+      - "C:/Program Files/GitHub CLI/lld-link.com"
+      - "C:/Program Files/GitHub CLI/lld-link.exe"
+      - "C:/Program Files/GitHub CLI/lld-link"
+      - "C:/Program Files/Seelen/Seelen UI/lld-link.com"
+      - "C:/Program Files/Seelen/Seelen UI/lld-link.exe"
+      - "C:/Program Files/Seelen/Seelen UI/lld-link"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Python313/Scripts/lld-link.com"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Python313/Scripts/lld-link.exe"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Python313/Scripts/lld-link"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Python313/lld-link.com"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Python313/lld-link.exe"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Python313/lld-link"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Launcher/lld-link.com"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Launcher/lld-link.exe"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Launcher/lld-link"
+      - "C:/Users/scher/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/scher/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/scher/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/scher/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/scher/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/scher/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/scher/AppData/Local/Programs/Ollama/lld-link.com"
+      - "C:/Users/scher/AppData/Local/Programs/Ollama/lld-link.exe"
+      - "C:/Users/scher/AppData/Local/Programs/Ollama/lld-link"
+      - "C:/Users/scher/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/scher/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/scher/AppData/Roaming/npm/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "%SystemRoot%\\system32"
+        - "%SystemRoot%"
+        - "%SystemRoot%\\System32\\Wbem"
+        - "%SYSTEMROOT%\\System32\\WindowsPowerShell\\v1.0\\"
+        - "%SYSTEMROOT%\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Tailscale\\"
+        - "C:\\Program Files (x86)\\cloudflared\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\scher\\OneDrive\\Desktop\\mingw64\\bin\\g++.exe"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\Seelen\\Seelen UI"
+        - "C:\\Users\\scher\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\scher\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\scher\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\scher\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\scher\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\scher\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\scher\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/Platform/Windows-MSVC.cmake:592 (enable_language)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/Platform/Windows-MSVC.cmake:565 (__windows_compiler_msvc_enable_rc)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/Platform/Windows-MSVC-C.cmake:5 (__windows_compiler_msvc)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/system32/"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/System32/Wbem/"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SYSTEMROOT%/System32/WindowsPowerShell/v1.0/"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SYSTEMROOT%/System32/OpenSSH/"
+      - "C:/Program Files/Tailscale/"
+      - "C:/Program Files (x86)/cloudflared/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Users/scher/OneDrive/Desktop/mingw64/bin/g++.exe/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/Seelen/Seelen UI/"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/scher/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/scher/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/scher/AppData/Local/Programs/Ollama/"
+      - "C:/Users/scher/AppData/Roaming/npm/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/bit/bin/"
+      - "C:/Program Files (x86)/bit/sbin/"
+      - "C:/Program Files (x86)/bit/"
+    searched_directories:
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/system32/rc.com"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/system32/rc.exe"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/system32/rc"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/rc.com"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/rc.exe"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/rc"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/System32/Wbem/rc.com"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/System32/Wbem/rc.exe"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/System32/Wbem/rc"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SYSTEMROOT%/System32/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SYSTEMROOT%/System32/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SYSTEMROOT%/System32/WindowsPowerShell/v1.0/rc"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SYSTEMROOT%/System32/OpenSSH/rc.com"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SYSTEMROOT%/System32/OpenSSH/rc.exe"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SYSTEMROOT%/System32/OpenSSH/rc"
+      - "C:/Program Files/Tailscale/rc.com"
+      - "C:/Program Files/Tailscale/rc.exe"
+      - "C:/Program Files/Tailscale/rc"
+      - "C:/Program Files (x86)/cloudflared/rc.com"
+      - "C:/Program Files (x86)/cloudflared/rc.exe"
+      - "C:/Program Files (x86)/cloudflared/rc"
+      - "C:/Program Files/nodejs/rc.com"
+      - "C:/Program Files/nodejs/rc.exe"
+      - "C:/Program Files/nodejs/rc"
+      - "C:/Users/scher/OneDrive/Desktop/mingw64/bin/g++.exe/rc.com"
+      - "C:/Users/scher/OneDrive/Desktop/mingw64/bin/g++.exe/rc.exe"
+      - "C:/Users/scher/OneDrive/Desktop/mingw64/bin/g++.exe/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc"
+      - "C:/Program Files/Docker/Docker/resources/bin/rc.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/rc.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/rc"
+      - "C:/Program Files/GitHub CLI/rc.com"
+      - "C:/Program Files/GitHub CLI/rc.exe"
+      - "C:/Program Files/GitHub CLI/rc"
+      - "C:/Program Files/Seelen/Seelen UI/rc.com"
+      - "C:/Program Files/Seelen/Seelen UI/rc.exe"
+      - "C:/Program Files/Seelen/Seelen UI/rc"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Python313/Scripts/rc.com"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Python313/Scripts/rc.exe"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Python313/Scripts/rc"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Python313/rc.com"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Python313/rc.exe"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Python313/rc"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Launcher/rc.com"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Launcher/rc.exe"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Launcher/rc"
+      - "C:/Users/scher/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/scher/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/scher/AppData/Local/Microsoft/WindowsApps/rc"
+      - "C:/Users/scher/AppData/Local/Programs/Microsoft VS Code/bin/rc.com"
+      - "C:/Users/scher/AppData/Local/Programs/Microsoft VS Code/bin/rc.exe"
+      - "C:/Users/scher/AppData/Local/Programs/Microsoft VS Code/bin/rc"
+      - "C:/Users/scher/AppData/Local/Programs/Ollama/rc.com"
+      - "C:/Users/scher/AppData/Local/Programs/Ollama/rc.exe"
+      - "C:/Users/scher/AppData/Local/Programs/Ollama/rc"
+      - "C:/Users/scher/AppData/Roaming/npm/rc.com"
+      - "C:/Users/scher/AppData/Roaming/npm/rc.exe"
+      - "C:/Users/scher/AppData/Roaming/npm/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Program Files/CMake/sbin/rc.com"
+      - "C:/Program Files/CMake/sbin/rc.exe"
+      - "C:/Program Files/CMake/sbin/rc"
+      - "C:/Program Files/CMake/rc.com"
+      - "C:/Program Files/CMake/rc.exe"
+      - "C:/Program Files/CMake/rc"
+      - "C:/Program Files (x86)/bit/bin/rc.com"
+      - "C:/Program Files (x86)/bit/bin/rc.exe"
+      - "C:/Program Files (x86)/bit/bin/rc"
+      - "C:/Program Files (x86)/bit/sbin/rc.com"
+      - "C:/Program Files (x86)/bit/sbin/rc.exe"
+      - "C:/Program Files (x86)/bit/sbin/rc"
+      - "C:/Program Files (x86)/bit/rc.com"
+      - "C:/Program Files (x86)/bit/rc.exe"
+      - "C:/Program Files (x86)/bit/rc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "%SystemRoot%\\system32"
+        - "%SystemRoot%"
+        - "%SystemRoot%\\System32\\Wbem"
+        - "%SYSTEMROOT%\\System32\\WindowsPowerShell\\v1.0\\"
+        - "%SYSTEMROOT%\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Tailscale\\"
+        - "C:\\Program Files (x86)\\cloudflared\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\scher\\OneDrive\\Desktop\\mingw64\\bin\\g++.exe"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\Seelen\\Seelen UI"
+        - "C:\\Users\\scher\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\scher\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\scher\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\scher\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\scher\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\scher\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\scher\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/bit"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/bit"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/scher/OneDrive/Desktop/c++/gui server/build/CMakeFiles/CMakeScratch/TryCompile-iol11t"
+      binary: "C:/Users/scher/OneDrive/Desktop/c++/gui server/build/CMakeFiles/CMakeScratch/TryCompile-iol11t"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: false
+      stdout: |
+        Change Dir: 'C:/Users/scher/OneDrive/Desktop/c++/gui server/build/CMakeFiles/CMakeScratch/TryCompile-iol11t'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e6ecc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild-Version 18.9.1+a81b43525 f├╝r .NET Framework
+        Der Buildvorgang wurde am 06.10.2026 20:47:32 gestartet.
+        
+        Projekt "C:\\Users\\scher\\OneDrive\\Desktop\\c++\\gui server\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iol11t\\cmTC_e6ecc.vcxproj" auf Knoten "1" (Standardziele).
+        PrepareForBuild:
+          Die strukturierte Ausgabe ist aktiviert. Die Formatierung der Compilerdiagnose spiegelt die Fehlerhierarchie wider. Weitere Informationen finden Sie unter https://aka.ms/cpp/structured-output.
+          Das Verzeichnis "C:\\Users\\scher\\OneDrive\\Desktop\\c++\\gui server\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iol11t\\Debug\\" wird erstellt.
+          Das Verzeichnis "cmTC_e6ecc.dir\\Debug\\cmTC_e6ecc.tlog\\" wird erstellt.
+        InitializeBuildStatus:
+          "cmTC_e6ecc.dir\\Debug\\cmTC_e6ecc.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+          Aktualisieren des Timestamps von "cmTC_e6ecc.dir\\Debug\\cmTC_e6ecc.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_e6ecc.dir\\Debug\\\\" /Fd"cmTC_e6ecc.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36256 for x64
+          Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_e6ecc.dir\\Debug\\\\" /Fd"cmTC_e6ecc.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\scher\\OneDrive\\Desktop\\c++\\gui server\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iol11t\\Debug\\cmTC_e6ecc.exe" /INCREMENTAL /ILK:"cmTC_e6ecc.dir\\Debug\\cmTC_e6ecc.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/scher/OneDrive/Desktop/c++/gui server/build/CMakeFiles/CMakeScratch/TryCompile-iol11t/Debug/cmTC_e6ecc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/scher/OneDrive/Desktop/c++/gui server/build/CMakeFiles/CMakeScratch/TryCompile-iol11t/Debug/cmTC_e6ecc.lib" /MACHINE:X64  /machine:x64 cmTC_e6ecc.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_e6ecc.vcxproj -> C:\\Users\\scher\\OneDrive\\Desktop\\c++\\gui server\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iol11t\\Debug\\cmTC_e6ecc.exe
+        FinalizeBuildStatus:
+          Die Datei "cmTC_e6ecc.dir\\Debug\\cmTC_e6ecc.tlog\\unsuccessfulbuild" wird gel├Âscht.
+          Aktualisieren des Timestamps von "cmTC_e6ecc.dir\\Debug\\cmTC_e6ecc.tlog\\cmTC_e6ecc.lastbuildstate".
+        Die Erstellung von Projekt "C:\\Users\\scher\\OneDrive\\Desktop\\c++\\gui server\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iol11t\\cmTC_e6ecc.vcxproj" ist abgeschlossen (Standardziele).
+        
+        Der Buildvorgang wurde erfolgreich ausgef├╝hrt.
+            0 Warnung(en)
+            0 Fehler
+        
+        Verstrichene Zeit 00:00:00.57
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:291 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        link line: [  C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\scher\\OneDrive\\Desktop\\c++\\gui server\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iol11t\\Debug\\cmTC_e6ecc.exe" /INCREMENTAL /ILK:"cmTC_e6ecc.dir\\Debug\\cmTC_e6ecc.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/scher/OneDrive/Desktop/c++/gui server/build/CMakeFiles/CMakeScratch/TryCompile-iol11t/Debug/cmTC_e6ecc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/scher/OneDrive/Desktop/c++/gui server/build/CMakeFiles/CMakeScratch/TryCompile-iol11t/Debug/cmTC_e6ecc.lib" /MACHINE:X64  /machine:x64 cmTC_e6ecc.dir\\Debug\\CMakeCCompilerABI.obj] ==> linker [C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe 
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/Internal/CMakeDetermineLinkerId.cmake:41 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:337 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.51.36256.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/scher/OneDrive/Desktop/c++/gui server/build/CMakeFiles/CMakeScratch/TryCompile-4q21y3"
+      binary: "C:/Users/scher/OneDrive/Desktop/c++/gui server/build/CMakeFiles/CMakeScratch/TryCompile-4q21y3"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: false
+      stdout: |
+        Change Dir: 'C:/Users/scher/OneDrive/Desktop/c++/gui server/build/CMakeFiles/CMakeScratch/TryCompile-4q21y3'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_007b2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild-Version 18.9.1+a81b43525 f├╝r .NET Framework
+        Der Buildvorgang wurde am 06.10.2026 20:47:33 gestartet.
+        
+        Projekt "C:\\Users\\scher\\OneDrive\\Desktop\\c++\\gui server\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4q21y3\\cmTC_007b2.vcxproj" auf Knoten "1" (Standardziele).
+        PrepareForBuild:
+          Die strukturierte Ausgabe ist aktiviert. Die Formatierung der Compilerdiagnose spiegelt die Fehlerhierarchie wider. Weitere Informationen finden Sie unter https://aka.ms/cpp/structured-output.
+          Das Verzeichnis "C:\\Users\\scher\\OneDrive\\Desktop\\c++\\gui server\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4q21y3\\Debug\\" wird erstellt.
+          Das Verzeichnis "cmTC_007b2.dir\\Debug\\cmTC_007b2.tlog\\" wird erstellt.
+        InitializeBuildStatus:
+          "cmTC_007b2.dir\\Debug\\cmTC_007b2.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+          Aktualisieren des Timestamps von "cmTC_007b2.dir\\Debug\\cmTC_007b2.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_007b2.dir\\Debug\\\\" /Fd"cmTC_007b2.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36256 for x64
+          Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_007b2.dir\\Debug\\\\" /Fd"cmTC_007b2.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\scher\\OneDrive\\Desktop\\c++\\gui server\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4q21y3\\Debug\\cmTC_007b2.exe" /INCREMENTAL /ILK:"cmTC_007b2.dir\\Debug\\cmTC_007b2.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/scher/OneDrive/Desktop/c++/gui server/build/CMakeFiles/CMakeScratch/TryCompile-4q21y3/Debug/cmTC_007b2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/scher/OneDrive/Desktop/c++/gui server/build/CMakeFiles/CMakeScratch/TryCompile-4q21y3/Debug/cmTC_007b2.lib" /MACHINE:X64  /machine:x64 cmTC_007b2.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_007b2.vcxproj -> C:\\Users\\scher\\OneDrive\\Desktop\\c++\\gui server\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4q21y3\\Debug\\cmTC_007b2.exe
+        FinalizeBuildStatus:
+          Die Datei "cmTC_007b2.dir\\Debug\\cmTC_007b2.tlog\\unsuccessfulbuild" wird gel├Âscht.
+          Aktualisieren des Timestamps von "cmTC_007b2.dir\\Debug\\cmTC_007b2.tlog\\cmTC_007b2.lastbuildstate".
+        Die Erstellung von Projekt "C:\\Users\\scher\\OneDrive\\Desktop\\c++\\gui server\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4q21y3\\cmTC_007b2.vcxproj" ist abgeschlossen (Standardziele).
+        
+        Der Buildvorgang wurde erfolgreich ausgef├╝hrt.
+            0 Warnung(en)
+            0 Fehler
+        
+        Verstrichene Zeit 00:00:00.54
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:291 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        link line: [  C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\scher\\OneDrive\\Desktop\\c++\\gui server\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4q21y3\\Debug\\cmTC_007b2.exe" /INCREMENTAL /ILK:"cmTC_007b2.dir\\Debug\\cmTC_007b2.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/scher/OneDrive/Desktop/c++/gui server/build/CMakeFiles/CMakeScratch/TryCompile-4q21y3/Debug/cmTC_007b2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/scher/OneDrive/Desktop/c++/gui server/build/CMakeFiles/CMakeScratch/TryCompile-4q21y3/Debug/cmTC_007b2.lib" /MACHINE:X64  /machine:x64 cmTC_007b2.dir\\Debug\\CMakeCXXCompilerABI.obj] ==> linker [C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe 
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/Internal/CMakeDetermineLinkerId.cmake:41 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:337 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.51.36256.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/FindVulkan.cmake:493 (find_program)"
+      - "CMakeLists.txt:9 (find_package)"
+    mode: "program"
+    variable: "Vulkan_GLSLC_EXECUTABLE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "glslc"
+    candidate_directories:
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/system32/"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/System32/Wbem/"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SYSTEMROOT%/System32/WindowsPowerShell/v1.0/"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SYSTEMROOT%/System32/OpenSSH/"
+      - "C:/Program Files/Tailscale/"
+      - "C:/Program Files (x86)/cloudflared/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Users/scher/OneDrive/Desktop/mingw64/bin/g++.exe/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/Seelen/Seelen UI/"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/scher/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/scher/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/scher/AppData/Local/Programs/Ollama/"
+      - "C:/Users/scher/AppData/Roaming/npm/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/bit/bin/"
+      - "C:/Program Files (x86)/bit/sbin/"
+      - "C:/Program Files (x86)/bit/"
+    searched_directories:
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/system32/glslc.com"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/system32/glslc.exe"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/system32/glslc"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/glslc.com"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/glslc.exe"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/glslc"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/System32/Wbem/glslc.com"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/System32/Wbem/glslc.exe"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/System32/Wbem/glslc"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SYSTEMROOT%/System32/WindowsPowerShell/v1.0/glslc.com"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SYSTEMROOT%/System32/WindowsPowerShell/v1.0/glslc.exe"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SYSTEMROOT%/System32/WindowsPowerShell/v1.0/glslc"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SYSTEMROOT%/System32/OpenSSH/glslc.com"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SYSTEMROOT%/System32/OpenSSH/glslc.exe"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SYSTEMROOT%/System32/OpenSSH/glslc"
+      - "C:/Program Files/Tailscale/glslc.com"
+      - "C:/Program Files/Tailscale/glslc.exe"
+      - "C:/Program Files/Tailscale/glslc"
+      - "C:/Program Files (x86)/cloudflared/glslc.com"
+      - "C:/Program Files (x86)/cloudflared/glslc.exe"
+      - "C:/Program Files (x86)/cloudflared/glslc"
+      - "C:/Program Files/nodejs/glslc.com"
+      - "C:/Program Files/nodejs/glslc.exe"
+      - "C:/Program Files/nodejs/glslc"
+      - "C:/Users/scher/OneDrive/Desktop/mingw64/bin/g++.exe/glslc.com"
+      - "C:/Users/scher/OneDrive/Desktop/mingw64/bin/g++.exe/glslc.exe"
+      - "C:/Users/scher/OneDrive/Desktop/mingw64/bin/g++.exe/glslc"
+      - "C:/Program Files/CMake/bin/glslc.com"
+      - "C:/Program Files/CMake/bin/glslc.exe"
+      - "C:/Program Files/CMake/bin/glslc"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/glslc.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/glslc.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/glslc"
+      - "C:/Program Files/Docker/Docker/resources/bin/glslc.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/glslc.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/glslc"
+      - "C:/Program Files/GitHub CLI/glslc.com"
+      - "C:/Program Files/GitHub CLI/glslc.exe"
+      - "C:/Program Files/GitHub CLI/glslc"
+      - "C:/Program Files/Seelen/Seelen UI/glslc.com"
+      - "C:/Program Files/Seelen/Seelen UI/glslc.exe"
+      - "C:/Program Files/Seelen/Seelen UI/glslc"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Python313/Scripts/glslc.com"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Python313/Scripts/glslc.exe"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Python313/Scripts/glslc"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Python313/glslc.com"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Python313/glslc.exe"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Python313/glslc"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Launcher/glslc.com"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Launcher/glslc.exe"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Launcher/glslc"
+      - "C:/Users/scher/AppData/Local/Microsoft/WindowsApps/glslc.com"
+      - "C:/Users/scher/AppData/Local/Microsoft/WindowsApps/glslc.exe"
+      - "C:/Users/scher/AppData/Local/Microsoft/WindowsApps/glslc"
+      - "C:/Users/scher/AppData/Local/Programs/Microsoft VS Code/bin/glslc.com"
+      - "C:/Users/scher/AppData/Local/Programs/Microsoft VS Code/bin/glslc.exe"
+      - "C:/Users/scher/AppData/Local/Programs/Microsoft VS Code/bin/glslc"
+      - "C:/Users/scher/AppData/Local/Programs/Ollama/glslc.com"
+      - "C:/Users/scher/AppData/Local/Programs/Ollama/glslc.exe"
+      - "C:/Users/scher/AppData/Local/Programs/Ollama/glslc"
+      - "C:/Users/scher/AppData/Roaming/npm/glslc.com"
+      - "C:/Users/scher/AppData/Roaming/npm/glslc.exe"
+      - "C:/Users/scher/AppData/Roaming/npm/glslc"
+      - "C:/Program Files/bin/glslc.com"
+      - "C:/Program Files/bin/glslc.exe"
+      - "C:/Program Files/bin/glslc"
+      - "C:/Program Files/sbin/glslc.com"
+      - "C:/Program Files/sbin/glslc.exe"
+      - "C:/Program Files/sbin/glslc"
+      - "C:/Program Files/glslc.com"
+      - "C:/Program Files/glslc.exe"
+      - "C:/Program Files/glslc"
+      - "C:/Program Files (x86)/bin/glslc.com"
+      - "C:/Program Files (x86)/bin/glslc.exe"
+      - "C:/Program Files (x86)/bin/glslc"
+      - "C:/Program Files (x86)/sbin/glslc.com"
+      - "C:/Program Files (x86)/sbin/glslc.exe"
+      - "C:/Program Files (x86)/sbin/glslc"
+      - "C:/Program Files (x86)/glslc.com"
+      - "C:/Program Files (x86)/glslc.exe"
+      - "C:/Program Files (x86)/glslc"
+      - "C:/Program Files/CMake/bin/glslc.com"
+      - "C:/Program Files/CMake/bin/glslc.exe"
+      - "C:/Program Files/CMake/bin/glslc"
+      - "C:/Program Files/CMake/sbin/glslc.com"
+      - "C:/Program Files/CMake/sbin/glslc.exe"
+      - "C:/Program Files/CMake/sbin/glslc"
+      - "C:/Program Files/CMake/glslc.com"
+      - "C:/Program Files/CMake/glslc.exe"
+      - "C:/Program Files/CMake/glslc"
+      - "C:/Program Files (x86)/bit/bin/glslc.com"
+      - "C:/Program Files (x86)/bit/bin/glslc.exe"
+      - "C:/Program Files (x86)/bit/bin/glslc"
+      - "C:/Program Files (x86)/bit/sbin/glslc.com"
+      - "C:/Program Files (x86)/bit/sbin/glslc.exe"
+      - "C:/Program Files (x86)/bit/sbin/glslc"
+      - "C:/Program Files (x86)/bit/glslc.com"
+      - "C:/Program Files (x86)/bit/glslc.exe"
+      - "C:/Program Files (x86)/bit/glslc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "%SystemRoot%\\system32"
+        - "%SystemRoot%"
+        - "%SystemRoot%\\System32\\Wbem"
+        - "%SYSTEMROOT%\\System32\\WindowsPowerShell\\v1.0\\"
+        - "%SYSTEMROOT%\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Tailscale\\"
+        - "C:\\Program Files (x86)\\cloudflared\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\scher\\OneDrive\\Desktop\\mingw64\\bin\\g++.exe"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\Seelen\\Seelen UI"
+        - "C:\\Users\\scher\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\scher\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\scher\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\scher\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\scher\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\scher\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\scher\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/bit"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/bit"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/FindVulkan.cmake:501 (find_program)"
+      - "CMakeLists.txt:9 (find_package)"
+    mode: "program"
+    variable: "Vulkan_GLSLANG_VALIDATOR_EXECUTABLE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "glslangValidator"
+    candidate_directories:
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/system32/"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/System32/Wbem/"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SYSTEMROOT%/System32/WindowsPowerShell/v1.0/"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SYSTEMROOT%/System32/OpenSSH/"
+      - "C:/Program Files/Tailscale/"
+      - "C:/Program Files (x86)/cloudflared/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Users/scher/OneDrive/Desktop/mingw64/bin/g++.exe/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/Seelen/Seelen UI/"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/scher/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/scher/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/scher/AppData/Local/Programs/Ollama/"
+      - "C:/Users/scher/AppData/Roaming/npm/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/bit/bin/"
+      - "C:/Program Files (x86)/bit/sbin/"
+      - "C:/Program Files (x86)/bit/"
+    searched_directories:
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/system32/glslangValidator.com"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/system32/glslangValidator.exe"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/system32/glslangValidator"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/glslangValidator.com"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/glslangValidator.exe"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/glslangValidator"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/System32/Wbem/glslangValidator.com"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/System32/Wbem/glslangValidator.exe"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SystemRoot%/System32/Wbem/glslangValidator"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SYSTEMROOT%/System32/WindowsPowerShell/v1.0/glslangValidator.com"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SYSTEMROOT%/System32/WindowsPowerShell/v1.0/glslangValidator.exe"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SYSTEMROOT%/System32/WindowsPowerShell/v1.0/glslangValidator"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SYSTEMROOT%/System32/OpenSSH/glslangValidator.com"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SYSTEMROOT%/System32/OpenSSH/glslangValidator.exe"
+      - "C:/Users/scher/OneDrive/Desktop/c++/gui server/%SYSTEMROOT%/System32/OpenSSH/glslangValidator"
+      - "C:/Program Files/Tailscale/glslangValidator.com"
+      - "C:/Program Files/Tailscale/glslangValidator.exe"
+      - "C:/Program Files/Tailscale/glslangValidator"
+      - "C:/Program Files (x86)/cloudflared/glslangValidator.com"
+      - "C:/Program Files (x86)/cloudflared/glslangValidator.exe"
+      - "C:/Program Files (x86)/cloudflared/glslangValidator"
+      - "C:/Program Files/nodejs/glslangValidator.com"
+      - "C:/Program Files/nodejs/glslangValidator.exe"
+      - "C:/Program Files/nodejs/glslangValidator"
+      - "C:/Users/scher/OneDrive/Desktop/mingw64/bin/g++.exe/glslangValidator.com"
+      - "C:/Users/scher/OneDrive/Desktop/mingw64/bin/g++.exe/glslangValidator.exe"
+      - "C:/Users/scher/OneDrive/Desktop/mingw64/bin/g++.exe/glslangValidator"
+      - "C:/Program Files/CMake/bin/glslangValidator.com"
+      - "C:/Program Files/CMake/bin/glslangValidator.exe"
+      - "C:/Program Files/CMake/bin/glslangValidator"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/glslangValidator.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/glslangValidator.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/glslangValidator"
+      - "C:/Program Files/Docker/Docker/resources/bin/glslangValidator.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/glslangValidator.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/glslangValidator"
+      - "C:/Program Files/GitHub CLI/glslangValidator.com"
+      - "C:/Program Files/GitHub CLI/glslangValidator.exe"
+      - "C:/Program Files/GitHub CLI/glslangValidator"
+      - "C:/Program Files/Seelen/Seelen UI/glslangValidator.com"
+      - "C:/Program Files/Seelen/Seelen UI/glslangValidator.exe"
+      - "C:/Program Files/Seelen/Seelen UI/glslangValidator"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Python313/Scripts/glslangValidator.com"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Python313/Scripts/glslangValidator.exe"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Python313/Scripts/glslangValidator"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Python313/glslangValidator.com"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Python313/glslangValidator.exe"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Python313/glslangValidator"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Launcher/glslangValidator.com"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Launcher/glslangValidator.exe"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Launcher/glslangValidator"
+      - "C:/Users/scher/AppData/Local/Microsoft/WindowsApps/glslangValidator.com"
+      - "C:/Users/scher/AppData/Local/Microsoft/WindowsApps/glslangValidator.exe"
+      - "C:/Users/scher/AppData/Local/Microsoft/WindowsApps/glslangValidator"
+      - "C:/Users/scher/AppData/Local/Programs/Microsoft VS Code/bin/glslangValidator.com"
+      - "C:/Users/scher/AppData/Local/Programs/Microsoft VS Code/bin/glslangValidator.exe"
+      - "C:/Users/scher/AppData/Local/Programs/Microsoft VS Code/bin/glslangValidator"
+      - "C:/Users/scher/AppData/Local/Programs/Ollama/glslangValidator.com"
+      - "C:/Users/scher/AppData/Local/Programs/Ollama/glslangValidator.exe"
+      - "C:/Users/scher/AppData/Local/Programs/Ollama/glslangValidator"
+      - "C:/Users/scher/AppData/Roaming/npm/glslangValidator.com"
+      - "C:/Users/scher/AppData/Roaming/npm/glslangValidator.exe"
+      - "C:/Users/scher/AppData/Roaming/npm/glslangValidator"
+      - "C:/Program Files/bin/glslangValidator.com"
+      - "C:/Program Files/bin/glslangValidator.exe"
+      - "C:/Program Files/bin/glslangValidator"
+      - "C:/Program Files/sbin/glslangValidator.com"
+      - "C:/Program Files/sbin/glslangValidator.exe"
+      - "C:/Program Files/sbin/glslangValidator"
+      - "C:/Program Files/glslangValidator.com"
+      - "C:/Program Files/glslangValidator.exe"
+      - "C:/Program Files/glslangValidator"
+      - "C:/Program Files (x86)/bin/glslangValidator.com"
+      - "C:/Program Files (x86)/bin/glslangValidator.exe"
+      - "C:/Program Files (x86)/bin/glslangValidator"
+      - "C:/Program Files (x86)/sbin/glslangValidator.com"
+      - "C:/Program Files (x86)/sbin/glslangValidator.exe"
+      - "C:/Program Files (x86)/sbin/glslangValidator"
+      - "C:/Program Files (x86)/glslangValidator.com"
+      - "C:/Program Files (x86)/glslangValidator.exe"
+      - "C:/Program Files (x86)/glslangValidator"
+      - "C:/Program Files/CMake/bin/glslangValidator.com"
+      - "C:/Program Files/CMake/bin/glslangValidator.exe"
+      - "C:/Program Files/CMake/bin/glslangValidator"
+      - "C:/Program Files/CMake/sbin/glslangValidator.com"
+      - "C:/Program Files/CMake/sbin/glslangValidator.exe"
+      - "C:/Program Files/CMake/sbin/glslangValidator"
+      - "C:/Program Files/CMake/glslangValidator.com"
+      - "C:/Program Files/CMake/glslangValidator.exe"
+      - "C:/Program Files/CMake/glslangValidator"
+      - "C:/Program Files (x86)/bit/bin/glslangValidator.com"
+      - "C:/Program Files (x86)/bit/bin/glslangValidator.exe"
+      - "C:/Program Files (x86)/bit/bin/glslangValidator"
+      - "C:/Program Files (x86)/bit/sbin/glslangValidator.com"
+      - "C:/Program Files (x86)/bit/sbin/glslangValidator.exe"
+      - "C:/Program Files (x86)/bit/sbin/glslangValidator"
+      - "C:/Program Files (x86)/bit/glslangValidator.com"
+      - "C:/Program Files (x86)/bit/glslangValidator.exe"
+      - "C:/Program Files (x86)/bit/glslangValidator"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "%SystemRoot%\\system32"
+        - "%SystemRoot%"
+        - "%SystemRoot%\\System32\\Wbem"
+        - "%SYSTEMROOT%\\System32\\WindowsPowerShell\\v1.0\\"
+        - "%SYSTEMROOT%\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Tailscale\\"
+        - "C:\\Program Files (x86)\\cloudflared\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\scher\\OneDrive\\Desktop\\mingw64\\bin\\g++.exe"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\Seelen\\Seelen UI"
+        - "C:\\Users\\scher\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\scher\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\scher\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\scher\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\scher\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\scher\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\scher\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/bit"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/bit"
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/FindVulkan.cmake:493 (find_program)"
+      - "CMakeLists.txt:9 (find_package)"
+    mode: "program"
+    variable: "Vulkan_GLSLC_EXECUTABLE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "glslc"
+    candidate_directories:
+      - "C:/VulkanSDK/1.4.363.0/bin/"
+      - "C:/VulkanSDK/1.4.363.0/Bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Tailscale/"
+      - "C:/Program Files (x86)/cloudflared/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Users/scher/OneDrive/Desktop/mingw64/bin/g++.exe/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/Seelen/Seelen UI/"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/scher/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/scher/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/scher/AppData/Local/Programs/Ollama/"
+      - "C:/Users/scher/AppData/Roaming/npm/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/bit/bin/"
+      - "C:/Program Files (x86)/bit/sbin/"
+      - "C:/Program Files (x86)/bit/"
+    searched_directories:
+      - "C:/VulkanSDK/1.4.363.0/bin/glslc.com"
+    found: "C:/VulkanSDK/1.4.363.0/Bin/glslc.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\VulkanSDK\\1.4.363.0\\Bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Tailscale\\"
+        - "C:\\Program Files (x86)\\cloudflared\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\scher\\OneDrive\\Desktop\\mingw64\\bin\\g++.exe"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\Seelen\\Seelen UI"
+        - "C:\\Users\\scher\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\scher\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\scher\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\scher\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\scher\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\scher\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\scher\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/bit"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/bit"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/FindVulkan.cmake:501 (find_program)"
+      - "CMakeLists.txt:9 (find_package)"
+    mode: "program"
+    variable: "Vulkan_GLSLANG_VALIDATOR_EXECUTABLE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "glslangValidator"
+    candidate_directories:
+      - "C:/VulkanSDK/1.4.363.0/bin/"
+      - "C:/VulkanSDK/1.4.363.0/Bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Tailscale/"
+      - "C:/Program Files (x86)/cloudflared/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Users/scher/OneDrive/Desktop/mingw64/bin/g++.exe/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/Seelen/Seelen UI/"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/scher/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/scher/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/scher/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/scher/AppData/Local/Programs/Ollama/"
+      - "C:/Users/scher/AppData/Roaming/npm/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/bit/bin/"
+      - "C:/Program Files (x86)/bit/sbin/"
+      - "C:/Program Files (x86)/bit/"
+    searched_directories:
+      - "C:/VulkanSDK/1.4.363.0/bin/glslangValidator.com"
+    found: "C:/VulkanSDK/1.4.363.0/Bin/glslangValidator.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\VulkanSDK\\1.4.363.0\\Bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Tailscale\\"
+        - "C:\\Program Files (x86)\\cloudflared\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\scher\\OneDrive\\Desktop\\mingw64\\bin\\g++.exe"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\Seelen\\Seelen UI"
+        - "C:\\Users\\scher\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\scher\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\scher\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\scher\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\scher\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\scher\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\scher\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/bit"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/bit"
+...

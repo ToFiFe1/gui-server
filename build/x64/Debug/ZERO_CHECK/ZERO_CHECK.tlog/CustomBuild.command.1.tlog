@@ -1,0 +1,10 @@
+^C:\USERS\SCHER\ONEDRIVE\DESKTOP\C++\GUI SERVER\BUILD\CMAKEFILES\D046A3BB0D0284E9F9C19F775235E72B\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/scher/OneDrive/Desktop/c++/gui server" "-BC:/Users/scher/OneDrive/Desktop/c++/gui server/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/scher/OneDrive/Desktop/c++/gui server/build/bit.slnx"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
