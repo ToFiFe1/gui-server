@@ -1,0 +1,750 @@
+
+/* =========================
+   1. GRUNDLAGEN
+========================= */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    color-scheme: light;
+    --text: #ffffff;
+    --glass: rgba(0, 0, 0, 0.28);
+    --glass-dark: rgba(0, 0, 0, 0.55);
+    --border: rgba(255, 255, 255, 0.35);
+    --radius: 20px;
+    --space: 24px;
+}
+
+html {
+    min-width: 320px;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: "Quicksand", sans-serif;
+    color: var(--text);
+
+    background-color: #20252b;
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.35)),
+        url("https://mavuno.de/uploads/images/M1-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+img,
+iframe {
+    max-width: 100%;
+}
+
+img {
+    display: block;
+}
+
+button,
+a {
+    font: inherit;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    color: inherit;
+}
+
+
+/* =========================
+   2. HEADER & NAVIGATION
+========================= */
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+
+    padding: 16px clamp(16px, 3vw, 40px);
+
+    background: rgba(255, 255, 255, 0.12);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+}
+
+header > a {
+    flex-shrink: 0;
+}
+
+header img {
+    width: auto;
+    height: 64px;
+    object-fit: contain;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.nav_primary,
+.nav_secondary {
+    padding: 12px 16px;
+    border: 1px solid transparent;
+    border-radius: 12px;
+
+    color: var(--text);
+    font-size: 1rem;
+    font-weight: 600;
+
+    transition:
+        transform 0.2s ease,
+        background-color 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.nav_primary {
+    background-color: rgba(0, 0, 0, 0.60);
+}
+
+.nav_secondary {
+    background-color: rgba(20, 44, 101, 0.80);
+}
+
+header nav button:hover {
+    box-shadow: 0 2px 8px rgba(255, 255, 255, 0.35);
+    transform: translateY(-2px);
+}
+
+header nav button:focus-visible,
+.content button:focus-visible,
+a:focus-visible {
+    outline: 2px solid white;
+    outline-offset: 4px;
+}
+
+
+/* =========================
+   3. HAUPTBEREICH
+========================= */
+
+main {
+    width: 100%;
+    max-width: 1440px;
+    margin-inline: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+
+    padding: 24px clamp(16px, 3vw, 40px) 48px;
+}
+
+
+/* =========================
+   4. BILDKARTEN
+========================= */
+
+.card {
+    position: relative;
+
+    width: 100%;
+    max-width: 680px;
+    min-width: 0;
+
+    margin: 16px auto;
+}
+
+.photo {
+    width: 100%;
+    height: clamp(220px, 35vw, 370px);
+
+    overflow: hidden;
+    border: 1px solid var(--border);
+    border-radius: 24px;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.45);
+
+    transition:
+        box-shadow 0.3s ease,
+        transform 0.3s ease;
+}
+
+.photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.photo:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.55);
+    transform: translateY(-2px);
+}
+
+
+/* Bildbeschriftung */
+
+.description {
+    position: absolute;
+    right: 16px;
+    bottom: -20px;
+    z-index: 1;
+
+    width: fit-content;
+    max-width: calc(100% - 32px);
+    min-height: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 8px 18px;
+
+    color: var(--text);
+    background: rgba(0, 0, 0, 0.72);
+    border: 1px solid var(--border);
+    border-radius: 18px;
+
+    overflow-wrap: anywhere;
+    backdrop-filter: blur(8px);
+}
+
+.description h3 {
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.image_description h4 {
+    margin: 0;
+}
+
+
+/* =========================
+   5. CONTENT-BEREICHE
+========================= */
+
+.content {
+    width: 100%;
+    max-width: 1000px;
+    min-width: 0;
+
+    padding: clamp(20px, 3vw, 36px);
+
+    color: var(--text);
+    background: var(--glass);
+
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: var(--radius);
+
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(8px);
+
+    overflow-wrap: anywhere;
+}
+
+.content h1 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-size: clamp(1.7rem, 3vw, 2.4rem);
+}
+
+.content p {
+    line-height: 1.7;
+}
+
+.content hr {
+    margin: 24px 0;
+    border: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+.content .top {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: var(--space);
+}
+
+.content .text {
+    min-width: 0;
+    flex: 1;
+}
+
+
+/* =========================
+   6. WILLKOMMENS-KACHELN
+========================= */
+
+.content .bottom {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 12px;
+
+    margin-top: 28px;
+}
+
+.content .bottom button {
+    min-width: 0;
+    height: 100%;
+    padding: 18px;
+
+    color: var(--text);
+    text-align: left;
+
+    background: rgba(0, 0, 0, 0.39);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    border-radius: 14px;
+
+    overflow-wrap: anywhere;
+
+    transition:
+        background-color 0.25s ease,
+        border-color 0.25s ease,
+        transform 0.25s ease;
+}
+
+.content .bottom button:hover {
+    background: rgba(0, 0, 0, 0.62);
+    border-color: rgba(255, 255, 255, 0.4);
+    transform: translateY(-3px);
+}
+
+.content .bottom button h2 {
+    margin: 0 0 10px;
+    font-size: 1.15rem;
+}
+
+.content .bottom button p {
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+
+/* =========================
+   7. LINKS
+========================= */
+
+.content a {
+    display: inline-block;
+    max-width: 100%;
+
+    color: white;
+    text-decoration: none;
+    overflow-wrap: anywhere;
+
+    transition:
+        color 0.2s ease,
+        transform 0.2s ease;
+}
+
+.content a:hover {
+    color: #e1eaff;
+    text-decoration: underline;
+    transform: translateY(-1px);
+}
+
+
+/* =========================
+   8. GOTTESDIENST & KARTE
+========================= */
+
+.service-content {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr);
+    align-items: center;
+    gap: 24px;
+}
+
+.service-content .text {
+    min-width: 0;
+}
+
+.service-content iframe {
+    display: block;
+    width: 100%;
+    min-width: 0;
+    height: 300px;
+
+    border: 0;
+    border-radius: 12px;
+}
+
+
+/* =========================
+   9. TABLET & KLEINERE DESKTOPS
+========================= */
+
+@media (max-width: 900px) {
+    header {
+        gap: 16px;
+    }
+
+    header nav {
+        gap: 8px;
+    }
+
+    .nav_primary,
+    .nav_secondary {
+        padding: 11px 12px;
+        font-size: 0.95rem;
+    }
+
+    .content .bottom {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .service-content {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .service-content iframe {
+        height: 280px;
+    }
+}
+
+
+/* =========================
+   10. HANDY
+========================= */
+
+@media (max-width: 600px) {
+    body {
+        background-size: cover;
+        background-position: center top;
+        background-attachment: scroll;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+        gap: 14px;
+        padding: 12px 16px;
+    }
+
+    header img {
+        height: 48px;
+    }
+
+    header nav {
+        width: 100%;
+        justify-content: center;
+        gap: 8px;
+    }
+
+    .nav_primary,
+    .nav_secondary {
+        flex: 1 1 auto;
+        padding: 10px 12px;
+        font-size: 0.875rem;
+        border-radius: 10px;
+    }
+
+    header nav button:hover {
+        transform: none;
+    }
+
+    main {
+        gap: 20px;
+        padding: 16px 12px 32px;
+    }
+
+    .card {
+        width: 100%;
+        margin: 12px auto 28px;
+    }
+
+    .photo {
+        height: clamp(190px, 58vw, 260px);
+        border-radius: 18px;
+    }
+
+    .photo:hover {
+        transform: none;
+    }
+
+    .description {
+        right: 8px;
+        bottom: -18px;
+        max-width: calc(100% - 16px);
+        min-height: 48px;
+        padding: 8px 12px;
+        border-radius: 14px;
+    }
+
+    .description h3 {
+        font-size: 0.95rem;
+    }
+
+    .content {
+        padding: 20px 16px;
+        border-radius: 16px;
+    }
+
+    .content .top {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .content .bottom {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 10px;
+        margin-top: 22px;
+    }
+
+    .content .bottom button {
+        width: 100%;
+        padding: 14px;
+        border-radius: 10px;
+    }
+
+    .content .bottom button h2 {
+        font-size: 1.05rem;
+    }
+
+    .content .bottom button p {
+        font-size: 0.9rem;
+    }
+
+    .service-content {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 20px;
+    }
+
+    .service-content iframe {
+        height: 260px;
+    }
+}
+
+
+/* =========================
+   11. SEHR KLEINE HANDYS
+========================= */
+
+@media (max-width: 380px) {
+    header nav {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .nav_primary,
+    .nav_secondary {
+        width: 100%;
+        min-width: 0;
+        padding: 10px 6px;
+        font-size: 0.8rem;
+    }
+
+    .content {
+        padding: 18px 12px;
+    }
+
+    .service-content iframe {
+        height: 230px;
+    }
+}
+
+
+/* =========================
+   12. BEWEGUNG REDUZIEREN
+========================= */
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        scroll-behavior: auto !important;
+        transition-duration: 0.01ms !important;
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+    }
+}
+
+
+/* ========================================
+   DESKTOP LAYOUT
+   Ab 601px Bildschirmbreite
+======================================== */
+
+@media (min-width: 601px) {
+
+    /* Einheitlicher Seitenaufbau */
+    body {
+        background-size: cover;
+        background-position: center top;
+        background-attachment: fixed;
+    }
+
+    header {
+        width: 100%;
+        min-height: 88px;
+        padding: 14px clamp(24px, 4vw, 64px);
+        gap: 24px;
+    }
+
+    header nav {
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        gap: 12px;
+    }
+
+    /* Hauptbereich immer mittig halten */
+    main {
+        width: 100%;
+        max-width: 1440px;
+        margin-inline: auto;
+        padding: 36px clamp(24px, 4vw, 64px) 64px;
+        gap: 36px;
+        align-items: stretch;
+    }
+
+    /* Karten nicht mehr auf 680px festnageln */
+    .card {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+        margin: 0;
+    }
+
+    /* Große Bilder mit kontrollierter Höhe */
+    .photo {
+        width: 100%;
+        height: clamp(280px, 32vw, 440px);
+        border-radius: 24px;
+    }
+
+    .photo img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    /* Inhaltsbereiche einheitlich ausrichten */
+    .content {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+        padding: clamp(24px, 3vw, 44px);
+    }
+
+    .content .top {
+        display: block;
+        width: 100%;
+    }
+
+    .content .text {
+        width: 100%;
+        min-width: 0;
+    }
+
+    /* Einleitungstext lesbar halten */
+    .content .text > p {
+        max-width: 850px;
+        line-height: 1.8;
+    }
+
+    .content h1 {
+        font-size: clamp(30px, 2.5vw, 42px);
+    }
+
+    /* Drei gleichmäßige Kacheln */
+    .content .bottom {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        align-items: stretch;
+        gap: 20px;
+        margin-top: 32px;
+    }
+
+    .content .bottom button {
+        width: 100%;
+        min-width: 0;
+        min-height: 145px;
+        padding: 24px;
+        text-align: left;
+    }
+
+    .content .bottom button h2 {
+        line-height: 1.35;
+    }
+
+    /* Gottesdienst: Text und Karte nebeneinander */
+    .service-content {
+        display: grid;
+        grid-template-columns:
+            minmax(0, 0.85fr)
+            minmax(0, 1.15fr);
+        align-items: center;
+        gap: clamp(24px, 4vw, 56px);
+    }
+
+    .service-content .text {
+        min-width: 0;
+    }
+
+    .service-content iframe {
+        display: block;
+        width: 100%;
+        min-width: 0;
+        height: clamp(300px, 28vw, 420px);
+        border: 0;
+        border-radius: 16px;
+    }
+
+    /* Auf Touchscreens keine Hover-Vergrößerung erzwingen */
+    @media (hover: hover) and (pointer: fine) {
+        .content .bottom button:hover {
+            transform: translateY(-4px);
+        }
+    }
+}
+
+
+/* ========================================
+   KLEINERE DESKTOPFENSTER
+======================================== */
+
+@media (min-width: 601px) and (max-width: 1050px) {
+
+    header {
+        align-items: flex-start;
+    }
+
+    header nav {
+        max-width: 75%;
+    }
+
+    main {
+        padding-inline: 24px;
+        gap: 28px;
+    }
+
+    .content .bottom {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .service-content {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .service-content iframe {
+        height: 320px;
+    }
+}
+

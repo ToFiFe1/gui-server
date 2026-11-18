@@ -60,7 +60,11 @@ std::string Execute(const std::string& command)
         return apiResponse("online");
     }
     else if (command == "n8n_1") {
-        handleRequest("http://localhost:5678/webhook/9f8e380c-b540-4957-9de1-1f8f5139d179");
+        return handleRequest("http://localhost:5678/webhook/9f8e380c-b540-4957-9de1-1f8f5139d179");
+    }
+    else if (command == "gemeinde") {
+        return loadHTTPrequest("mavuno.html", "200 OK");
+       
     }
     else if (command == "getUIConfig")
     {

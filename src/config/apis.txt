@@ -33,3 +33,4 @@
 /search?=x = seach_input
 
 /home=n8n_1
+/gemeinde=gemeinde
