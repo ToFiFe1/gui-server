@@ -30,17 +30,9 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\scher\OneDrive\Desktop\c++\gui server\src\vulcan\ex.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
     <CustomBuild Include="C:\Users\scher\OneDrive\Desktop\c++\gui server\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{EFC72ACE-5D2B-3EB7-9669-AE328AF8EB88}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files">
       <UniqueIdentifier>{128C6867-BC58-34CA-B33F-E2E665C4B490}</UniqueIdentifier>
     </Filter>
