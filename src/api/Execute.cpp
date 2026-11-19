@@ -5,8 +5,8 @@
 #include <vulcan/ex.hpp>
 #include <services/Clock.hpp>
 
-#include <windows.h>
-#include <shellapi.h>
+
+
 #include <cstdlib>
 #include <fstream>
 #include <string>
@@ -20,15 +20,7 @@ std::string Execute(const std::string& command)
     {
         return loadHTTPrequest("redirect.html", "200 OK");
     }
-    else if (command == "getTime")
-    {
-        std::system(R"(start "" "steam://rungameid/730")");
-
-        return loadHTTPrequest(
-            "errors/404.html",
-            "404 Not Found"
-        );
-    }
+   
     else if (command == "add")
     {
         ++x;
