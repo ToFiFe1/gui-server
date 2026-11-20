@@ -58,6 +58,7 @@ std::string Execute(const std::string& command)
         return loadHTTPrequest("mavuno.html", "200 OK");
        
     }
+    
     else if (command == "getUIConfig")
     {
         std::ifstream file(

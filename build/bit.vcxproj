@@ -86,7 +86,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\scher\OneDrive\Desktop\c++\gui server\src;C:\Users\scher\OneDrive\Desktop\c++\gui server\modules;C:\Users\scher\OneDrive\Desktop\c++\gui server\web;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\scher\OneDrive\Desktop\c++\gui server\src;C:\Users\scher\OneDrive\Desktop\c++\gui server\src\server;C:\Users\scher\OneDrive\Desktop\c++\gui server\src\router;C:\Users\scher\OneDrive\Desktop\c++\gui server\modules;C:\Users\scher\OneDrive\Desktop\c++\gui server\web;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/scher/OneDrive/Desktop/c++/gui server/modules/GLFW/include" /external:I "C:/VulkanSDK/1.4.363.0/Include"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -113,10 +113,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;WEB_ROOT=\"C:/Users/scher/OneDrive/Desktop/c++/gui server/web\";API_ROOT=\"C:/Users/scher/OneDrive/Desktop/c++/gui server/src/config\";CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\scher\OneDrive\Desktop\c++\gui server\src;C:\Users\scher\OneDrive\Desktop\c++\gui server\modules;C:\Users\scher\OneDrive\Desktop\c++\gui server\web;C:\Users\scher\OneDrive\Desktop\c++\gui server\modules\GLFW\include;C:\VulkanSDK\1.4.363.0\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\scher\OneDrive\Desktop\c++\gui server\src;C:\Users\scher\OneDrive\Desktop\c++\gui server\src\server;C:\Users\scher\OneDrive\Desktop\c++\gui server\src\router;C:\Users\scher\OneDrive\Desktop\c++\gui server\modules;C:\Users\scher\OneDrive\Desktop\c++\gui server\web;C:\Users\scher\OneDrive\Desktop\c++\gui server\modules\GLFW\include;C:\VulkanSDK\1.4.363.0\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\scher\OneDrive\Desktop\c++\gui server\src;C:\Users\scher\OneDrive\Desktop\c++\gui server\modules;C:\Users\scher\OneDrive\Desktop\c++\gui server\web;C:\Users\scher\OneDrive\Desktop\c++\gui server\modules\GLFW\include;C:\VulkanSDK\1.4.363.0\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\scher\OneDrive\Desktop\c++\gui server\src;C:\Users\scher\OneDrive\Desktop\c++\gui server\src\server;C:\Users\scher\OneDrive\Desktop\c++\gui server\src\router;C:\Users\scher\OneDrive\Desktop\c++\gui server\modules;C:\Users\scher\OneDrive\Desktop\c++\gui server\web;C:\Users\scher\OneDrive\Desktop\c++\gui server\modules\GLFW\include;C:\VulkanSDK\1.4.363.0\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -143,7 +143,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\scher\OneDrive\Desktop\c++\gui server\src;C:\Users\scher\OneDrive\Desktop\c++\gui server\modules;C:\Users\scher\OneDrive\Desktop\c++\gui server\web;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\scher\OneDrive\Desktop\c++\gui server\src;C:\Users\scher\OneDrive\Desktop\c++\gui server\src\server;C:\Users\scher\OneDrive\Desktop\c++\gui server\src\router;C:\Users\scher\OneDrive\Desktop\c++\gui server\modules;C:\Users\scher\OneDrive\Desktop\c++\gui server\web;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/scher/OneDrive/Desktop/c++/gui server/modules/GLFW/include" /external:I "C:/VulkanSDK/1.4.363.0/Include"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
@@ -171,10 +171,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;WEB_ROOT=\"C:/Users/scher/OneDrive/Desktop/c++/gui server/web\";API_ROOT=\"C:/Users/scher/OneDrive/Desktop/c++/gui server/src/config\";CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\scher\OneDrive\Desktop\c++\gui server\src;C:\Users\scher\OneDrive\Desktop\c++\gui server\modules;C:\Users\scher\OneDrive\Desktop\c++\gui server\web;C:\Users\scher\OneDrive\Desktop\c++\gui server\modules\GLFW\include;C:\VulkanSDK\1.4.363.0\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\scher\OneDrive\Desktop\c++\gui server\src;C:\Users\scher\OneDrive\Desktop\c++\gui server\src\server;C:\Users\scher\OneDrive\Desktop\c++\gui server\src\router;C:\Users\scher\OneDrive\Desktop\c++\gui server\modules;C:\Users\scher\OneDrive\Desktop\c++\gui server\web;C:\Users\scher\OneDrive\Desktop\c++\gui server\modules\GLFW\include;C:\VulkanSDK\1.4.363.0\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\scher\OneDrive\Desktop\c++\gui server\src;C:\Users\scher\OneDrive\Desktop\c++\gui server\modules;C:\Users\scher\OneDrive\Desktop\c++\gui server\web;C:\Users\scher\OneDrive\Desktop\c++\gui server\modules\GLFW\include;C:\VulkanSDK\1.4.363.0\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\scher\OneDrive\Desktop\c++\gui server\src;C:\Users\scher\OneDrive\Desktop\c++\gui server\src\server;C:\Users\scher\OneDrive\Desktop\c++\gui server\src\router;C:\Users\scher\OneDrive\Desktop\c++\gui server\modules;C:\Users\scher\OneDrive\Desktop\c++\gui server\web;C:\Users\scher\OneDrive\Desktop\c++\gui server\modules\GLFW\include;C:\VulkanSDK\1.4.363.0\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -201,7 +201,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\scher\OneDrive\Desktop\c++\gui server\src;C:\Users\scher\OneDrive\Desktop\c++\gui server\modules;C:\Users\scher\OneDrive\Desktop\c++\gui server\web;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\scher\OneDrive\Desktop\c++\gui server\src;C:\Users\scher\OneDrive\Desktop\c++\gui server\src\server;C:\Users\scher\OneDrive\Desktop\c++\gui server\src\router;C:\Users\scher\OneDrive\Desktop\c++\gui server\modules;C:\Users\scher\OneDrive\Desktop\c++\gui server\web;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/scher/OneDrive/Desktop/c++/gui server/modules/GLFW/include" /external:I "C:/VulkanSDK/1.4.363.0/Include"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
@@ -229,10 +229,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;WEB_ROOT=\"C:/Users/scher/OneDrive/Desktop/c++/gui server/web\";API_ROOT=\"C:/Users/scher/OneDrive/Desktop/c++/gui server/src/config\";CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\scher\OneDrive\Desktop\c++\gui server\src;C:\Users\scher\OneDrive\Desktop\c++\gui server\modules;C:\Users\scher\OneDrive\Desktop\c++\gui server\web;C:\Users\scher\OneDrive\Desktop\c++\gui server\modules\GLFW\include;C:\VulkanSDK\1.4.363.0\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\scher\OneDrive\Desktop\c++\gui server\src;C:\Users\scher\OneDrive\Desktop\c++\gui server\src\server;C:\Users\scher\OneDrive\Desktop\c++\gui server\src\router;C:\Users\scher\OneDrive\Desktop\c++\gui server\modules;C:\Users\scher\OneDrive\Desktop\c++\gui server\web;C:\Users\scher\OneDrive\Desktop\c++\gui server\modules\GLFW\include;C:\VulkanSDK\1.4.363.0\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\scher\OneDrive\Desktop\c++\gui server\src;C:\Users\scher\OneDrive\Desktop\c++\gui server\modules;C:\Users\scher\OneDrive\Desktop\c++\gui server\web;C:\Users\scher\OneDrive\Desktop\c++\gui server\modules\GLFW\include;C:\VulkanSDK\1.4.363.0\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\scher\OneDrive\Desktop\c++\gui server\src;C:\Users\scher\OneDrive\Desktop\c++\gui server\src\server;C:\Users\scher\OneDrive\Desktop\c++\gui server\src\router;C:\Users\scher\OneDrive\Desktop\c++\gui server\modules;C:\Users\scher\OneDrive\Desktop\c++\gui server\web;C:\Users\scher\OneDrive\Desktop\c++\gui server\modules\GLFW\include;C:\VulkanSDK\1.4.363.0\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -259,7 +259,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\scher\OneDrive\Desktop\c++\gui server\src;C:\Users\scher\OneDrive\Desktop\c++\gui server\modules;C:\Users\scher\OneDrive\Desktop\c++\gui server\web;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\scher\OneDrive\Desktop\c++\gui server\src;C:\Users\scher\OneDrive\Desktop\c++\gui server\src\server;C:\Users\scher\OneDrive\Desktop\c++\gui server\src\router;C:\Users\scher\OneDrive\Desktop\c++\gui server\modules;C:\Users\scher\OneDrive\Desktop\c++\gui server\web;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/scher/OneDrive/Desktop/c++/gui server/modules/GLFW/include" /external:I "C:/VulkanSDK/1.4.363.0/Include"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
@@ -286,10 +286,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;WEB_ROOT=\"C:/Users/scher/OneDrive/Desktop/c++/gui server/web\";API_ROOT=\"C:/Users/scher/OneDrive/Desktop/c++/gui server/src/config\";CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\scher\OneDrive\Desktop\c++\gui server\src;C:\Users\scher\OneDrive\Desktop\c++\gui server\modules;C:\Users\scher\OneDrive\Desktop\c++\gui server\web;C:\Users\scher\OneDrive\Desktop\c++\gui server\modules\GLFW\include;C:\VulkanSDK\1.4.363.0\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\scher\OneDrive\Desktop\c++\gui server\src;C:\Users\scher\OneDrive\Desktop\c++\gui server\src\server;C:\Users\scher\OneDrive\Desktop\c++\gui server\src\router;C:\Users\scher\OneDrive\Desktop\c++\gui server\modules;C:\Users\scher\OneDrive\Desktop\c++\gui server\web;C:\Users\scher\OneDrive\Desktop\c++\gui server\modules\GLFW\include;C:\VulkanSDK\1.4.363.0\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\scher\OneDrive\Desktop\c++\gui server\src;C:\Users\scher\OneDrive\Desktop\c++\gui server\modules;C:\Users\scher\OneDrive\Desktop\c++\gui server\web;C:\Users\scher\OneDrive\Desktop\c++\gui server\modules\GLFW\include;C:\VulkanSDK\1.4.363.0\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\scher\OneDrive\Desktop\c++\gui server\src;C:\Users\scher\OneDrive\Desktop\c++\gui server\src\server;C:\Users\scher\OneDrive\Desktop\c++\gui server\src\router;C:\Users\scher\OneDrive\Desktop\c++\gui server\modules;C:\Users\scher\OneDrive\Desktop\c++\gui server\web;C:\Users\scher\OneDrive\Desktop\c++\gui server\modules\GLFW\include;C:\VulkanSDK\1.4.363.0\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -373,6 +373,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="C:\Users\scher\OneDrive\Desktop\c++\gui server\src\main.cpp" />
+    <ClCompile Include="C:\Users\scher\OneDrive\Desktop\c++\gui server\src\router\router.cpp" />
+    <ClCompile Include="C:\Users\scher\OneDrive\Desktop\c++\gui server\src\server\server.cpp" />
     <ClCompile Include="C:\Users\scher\OneDrive\Desktop\c++\gui server\src\files\file_manager.cpp" />
     <ClCompile Include="C:\Users\scher\OneDrive\Desktop\c++\gui server\src\api\Apis.cpp" />
     <ClCompile Include="C:\Users\scher\OneDrive\Desktop\c++\gui server\src\api\Execute.cpp" />
@@ -385,6 +387,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="C:\Users\scher\OneDrive\Desktop\c++\gui server\src\Clock\clock.cpp">
       <ObjectFileName>$(IntDir)src/Clock/clock.cpp.obj</ObjectFileName>
     </ClCompile>
+    <ClCompile Include="C:\Users\scher\OneDrive\Desktop\c++\gui server\src\update\Update.cpp" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

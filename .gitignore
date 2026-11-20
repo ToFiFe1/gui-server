@@ -1,30 +1,34 @@
-# Prerequisites
-*.d
 
-# Compiled Object files
+# Build directories
+/build/
+
+# Local secrets and private configuration
+/modules/Secrets/
+
+# Compiled object files
 *.slo
 *.lo
 *.o
 *.obj
 
-# Precompiled Headers
+# Precompiled headers
 *.gch
 *.pch
 
-# Compiled Dynamic libraries
+# Compiled dynamic libraries
 *.so
 *.dylib
 *.dll
 
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
+# Compiled static libraries
 *.lai
 *.la
 *.a
 *.lib
+
+# Fortran modules
+*.mod
+*.smod
 
 # Executables
 *.exe

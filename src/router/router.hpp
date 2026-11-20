@@ -1,3 +1,5 @@
 #pragma once
-#include <iostream>
 
+#include <string>
+
+std::string routeRequest(const std::string& path);

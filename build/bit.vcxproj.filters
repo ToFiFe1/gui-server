@@ -4,6 +4,12 @@
     <ClCompile Include="C:\Users\scher\OneDrive\Desktop\c++\gui server\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\scher\OneDrive\Desktop\c++\gui server\src\router\router.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\scher\OneDrive\Desktop\c++\gui server\src\server\server.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="C:\Users\scher\OneDrive\Desktop\c++\gui server\src\files\file_manager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -26,6 +32,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="C:\Users\scher\OneDrive\Desktop\c++\gui server\src\Clock\clock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\scher\OneDrive\Desktop\c++\gui server\src\update\Update.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

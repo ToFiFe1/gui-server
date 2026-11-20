@@ -62,6 +62,9 @@ endif()
 add_executable(bit
     src/main.cpp
 
+    src/router/router.cpp 
+    src/server/server.cpp 
+
     src/files/file_manager.cpp
 
     src/api/Apis.cpp
@@ -74,6 +77,7 @@ add_executable(bit
     src/vulcan/RenderPipe.cpp
 
     src/Clock/clock.cpp
+    src/update/Update.cpp
 )
 
 # ==================================================
@@ -82,6 +86,8 @@ add_executable(bit
 
 target_include_directories(bit PRIVATE
     "${CMAKE_CURRENT_SOURCE_DIR}/src"
+    "${CMAKE_CURRENT_SOURCE_DIR}/src/server"
+    "${CMAKE_CURRENT_SOURCE_DIR}/src/router"
     "${CMAKE_CURRENT_SOURCE_DIR}/modules"
     "${CMAKE_CURRENT_SOURCE_DIR}/web"
 )
