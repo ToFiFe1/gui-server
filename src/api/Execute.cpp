@@ -4,6 +4,7 @@
 #include <api/Apis.hpp>
 #include <vulcan/ex.hpp>
 #include <services/Clock.hpp>
+#include <update/Update.hpp>
 
 
 
@@ -49,7 +50,7 @@ std::string Execute(const std::string& command)
         return apiResponse(std::to_string(x));
     }
     else if (command == "getStatus") {
-        return apiResponse("online");
+        return apiResponse("true");
     }
     else if (command == "n8n_1") {
         return handleRequest("http://localhost:5678/webhook/9f8e380c-b540-4957-9de1-1f8f5139d179");
@@ -57,6 +58,10 @@ std::string Execute(const std::string& command)
     else if (command == "gemeinde") {
         return loadHTTPrequest("mavuno.html", "200 OK");
        
+    }
+    else if (command == "Update") {
+
+        Update();
     }
     
     else if (command == "getUIConfig")

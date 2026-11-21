@@ -1,54 +1,105 @@
-<!DOCTYPE html>
 
+<!DOCTYPE html>
 <html lang="de">
 
 <head>
     <meta charset="UTF-8">
-    <meta user-scalable=nos name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>BitFile</title>
 
-<title>BitFile</title>
-
-<link rel="stylesheet" href="/web/style.css">
-<link rel="icon" href="/web/favicon.ico">
-
-
+    <link rel="stylesheet" href="/web/style.css">
+    <link rel="icon" href="/web/favicon.ico">
 </head>
-
 
 <body>
 
-<header>
-    <div class="logo">
-        <span class="logo-dot"></span>
-        BitFile
-    </div>
+    <header>
+        <div class="logo">
+            <span class="logo-dot"></span>
+            Bit Automation Panel
+        </div>
 
+        <nav>
+            <a href="/home">Home</a>
+            <a href="/web/">Files</a>
+            <a href="/gemeinde">Church</a>
+        </nav>
+    </header>
 
-<nav>
-    <a href="/home">Home</a>
-    <a href="/web/">Files</a>
-    <a href="/gemeinde">Church</a>
-</nav>
+    <main>
 
+        <section class="panel">
+            <h1>Updates</h1>
 
-</header>
+            <div class="update-config">
 
-<main>
+                <table>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Latest Update:</th>
+                            <td id="latest-update">now</td>
+                        </tr>
 
+                        <tr>
+                            <th scope="row">Project:</th>
+                            <td>
+                                <select name="project" id="project">
+                                    <option value="0">gui server</option>
+                                    <option value="1">Windows 11: core</option>
+                                </select>
+                            </td>
+                        </tr>
 
-<!-- Counter -->
-<section class="panel">
+                        <tr>
+                            <th scope="row">
+                                <label for="update-mode">Update mode:</label>
+                            </th>
+                            <td>
+                                <select name="mode" id="update-mode">
+                                    <option value="0">Light</option>
+                                    <option value="1">Medium</option>
+                                    <option value="2">Hard</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
 
-    
+                <button type="button" id="update-now">
+                    Update now
+                </button>
 
-</section>
+            </div>
 
+            <div class="update-history">
+                <h2>Update history</h2>
 
+                <table id="updateLog">
+                    <thead>
+                        <tr>
+                            <th scope="col">Name</th>
+                            <th scope="col">Date</th>
+                            <th scope="col">Update sequence</th>
+                            <th scope="col">Status</th>
+                        </tr>
+                    </thead>
 
-</main>
+                    <tbody id="updateLogEntries">
+                        <!-- Update entries will be added here later. -->
+                    </tbody>
+                </table>
+            </div>
 
-<script src="/web/script.js"></script>
+        </section>
+
+        <section class="panel">
+            <h2>Details</h2>
+        </section>
+
+    </main>
+
+    <script src="/web/script.js"></script>
 
 </body>
 </html>

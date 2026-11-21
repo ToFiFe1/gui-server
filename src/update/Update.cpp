@@ -56,4 +56,16 @@ int GetUpdateFiles(const std::string& path,
 
     return 0;
 }
-bool checkupdateReady(std::string configPath) {}
+int Update() {
+    try
+    {
+        apiResponse("we making ur cache");
+        return 0;
+    }
+    catch(const std::exception& e)
+    {
+        apiResponse(e.what());
+        return -1;
+    }
+    return 0;
+}

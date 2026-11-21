@@ -1,138 +1,86 @@
-const add = document.getElementById("add");
-const sub = document.getElementById("sub");
-const number = document.getElementById("number");
 
-const stop = document.getElementById("stop");
-const numberStop = document.getElementById("numberStop");
+const dot = document.querySelector(".logo-dot");
 
 let updating = false;
+let online = false;
 
-// -------------------------
-// GET CURRENT VALUE
-// -------------------------
+const updateButton = document.getElementById("update-now");
 
-function updateNumber() {
+updateButton.addEventListener("click", () => {
+    sentUpdateInfos();
+});
 
+async function sentUpdateInfos() {
+    const project = Number(
+        document.getElementById("project").value
+    );
 
-if (updating) {
-    return;
+    const mode = Number(
+        document.getElementById("update-mode").value
+    );
+
+    const updateInfos = {
+        project: project,
+        mode: mode
+    };
+
+    console.log("Update-Anfrage:", updateInfos);
+
+try {
+    const response = await fetch("/update", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify(updateInfos)
+    });
+
+    const data = await response.text();
+
+    console.log("HTTP-Status:", response.status);
+    console.log("Serverantwort:", data);
+
+} catch (error) {
+    console.error("Update-Anfrage fehlgeschlagen:", error);
+}
 }
 
-updating = true;
+async function loop() {
+    if (updating || !dot) {
+        return;
+    }
 
-fetch("/api/getx", {
-    cache: "no-store"
-})
-    .then(response => {
+    updating = true;
+
+    try {
+        const response = await fetch("/api/status", {
+            cache: "no-store"
+        });
 
         if (!response.ok) {
-            throw new Error("HTTP " + response.status);
+            throw new Error(`HTTP ${response.status}`);
         }
 
-        return response.text();
-    })
-    .then(data => {
+        const data = await response.text();
 
-        console.log("SERVER:", data);
+        online = data.trim() === "true";
 
-        number.textContent = data;
-    })
-    .catch(error => {
+        dot.style.backgroundColor = online ? "green" : "red";
 
-        console.error("GETX ERROR:", error);
+        console.log("Server online:", online);
 
-    })
-    .finally(() => {
 
+
+    } catch (error) {
+        online = false;
+        dot.style.backgroundColor = "red";
+
+        console.error("Statusabfrage fehlgeschlagen:", error);
+
+    } finally {
         updating = false;
-
-    });
-
-
+    }
 }
 
-// -------------------------
-// ADD
-// -------------------------
-
-add.addEventListener("click", () => {
-
-
-fetch("/api/add", {
-    cache: "no-store"
-})
-    .then(response => response.text())
-    .then(data => {
-
-        console.log("ADD:", data);
-
-        updateNumber();
-
-    })
-    .catch(error => {
-
-        console.error("ADD ERROR:", error);
-
-    });
-
-
-});
-
-// -------------------------
-// SUB
-// -------------------------
-
-sub.addEventListener("click", () => {
-
-
-fetch("/api/sub", {
-    cache: "no-store"
-})
-    .then(response => response.text())
-    .then(data => {
-
-        console.log("SUB:", data);
-
-        updateNumber();
-
-    })
-    .catch(error => {
-
-        console.error("SUB ERROR:", error);
-
-    });
-
-
-});
-
-// -------------------------
-// STOPWATCH
-// -------------------------
-
-stop.addEventListener("click", () => {
-
-
-fetch("/api/TrigStop", {
-    cache: "no-store"
-})
-    .then(response => response.text())
-    .then(data => {
-
-        console.log("STOPWATCH:", data);
-
-        numberStop.textContent = data;
-
-    })
-    .catch(error => {
-
-        console.error("STOPWATCH ERROR:", error);
-
-    });
-
-
-});
-
-
-setInterval(updateNumber, 50);
-
-updateNumber()
+setInterval(loop, 1000);
+loop();
