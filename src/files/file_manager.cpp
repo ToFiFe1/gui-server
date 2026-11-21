@@ -110,3 +110,27 @@ bool FileExists(const std::string& file, const std::string& folder)
         std::filesystem::path(folder) / file
     );
 }
+
+int saveFile(const std::string& content, const std::string& path)
+{
+    std::ofstream file(path, std::ios::binary);
+
+    if (!file.is_open()) {
+        return -1;
+    }
+
+    file.write(content.data(),
+               static_cast<std::streamsize>(content.size()));
+
+    if (!file.good()) {
+        return -1;
+    }
+
+    file.close();
+
+    if (file.fail()) {
+        return -1;
+    }
+
+    return 0;
+}

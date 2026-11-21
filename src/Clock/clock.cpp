@@ -1,42 +1,26 @@
+
 #include "clock.hpp"
-#include <iostream>
 #include <chrono>
-#include <thread>
+#include <ctime>
+#include <iomanip>
+#include <sstream>
 #include <string>
 
-    int s = 00; // seconds
-    int m = 00; // minuts
-    int h = 00; // hours
-    int d = 00; // days
+std::string NewClock()
+{
+    const auto now = std::chrono::system_clock::now();
+    const std::time_t time = std::chrono::system_clock::to_time_t(now);
 
-std::string NewClock() {
-    
-    for (;;) {
-        s++;
-        if (s == 60) {
-            s = 0;
-            m++;
-        }
+    std::tm localTime{};
 
-        if (m == 60) {
-            m = 0;
-            h++;
-        }   
+#ifdef _WIN32
+    localtime_s(&localTime, &time);
+#else
+    localtime_r(&time, &localTime);
+#endif
 
-        if (h == 24) {
-            h = 0;
-            d++;
-        }
-        std::this_thread::sleep_for(std::chrono::seconds(1));
-        
-    }
-    
+    std::ostringstream output;
+    output << std::put_time(&localTime, "%H:%M:%S");
 
-
-
-
-    return  std::to_string(h) + ":" +
-            std::to_string(m) + ":" +
-            std::to_string(s);
-
+    return output.str();
 }

@@ -1,8 +1,8 @@
 ================================================================================
 Linker Errors
-Generated: 2026-11-20T13:46:29.336Z
+Generated: 2026-11-21T11:44:33.576Z
 Total Errors: 1
 ================================================================================
 
-[LNK4098] (MSVC)
-Standardbibliothek "MSVCRT" steht in Konflikt mit anderen Bibliotheken; /NODEFAULTLIB:Bibliothek verwenden. [C:\Users\scher\OneDrive\Desktop\c++\gui server\build\bit.vcxproj]
+[LNK1168] (MSVC)
+"C:\Users\scher\OneDrive\Desktop\c++\gui server\build\Debug\bit.exe" kann nicht zum Schreiben geöffnet werden. [C:\Users\scher\OneDrive\Desktop\c++\gui server\build\bit.vcxproj]
